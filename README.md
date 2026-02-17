@@ -1,10 +1,9 @@
-TO DO: 
+Modifica:
 
-Guerriero oppure Gambera: Sistemare la parte dei problemi, non UTILIZZATE chatGpt, ma cercate su i siti, e aggiungete cose in più e se riuscite aggiungete una parte dove parla della relazione che gli Stati uniti hanno con il Messico.
+Grabriele Gambera, Gabriele Guerriero e Kevin Foglieni fate la parte degli Stati Uniti che si collega con la situazione attuale del Messico.
 
-Kevin Foglieni: Abbelisci il sito o lascialo così, e aggiungi anche gli hyperlink.
+Scaricate tutta la cartella su Github, così potete visualizzare il contenuto del sito. Per la parte degli Stati Uniti, vi consiglio di utilizzare un'altra pagina.
 
-Alex: Fare la mappa interattiva.
+Per ogni modifica che fate aggiungetela nella repository, grazie.
 
-
-DOVETE FARE TUTTO QUESTO ENTRO QUESTA SETTIMANA SE RIUSCITE! Grazie.
+La consegna è per Sabato, vi prego fate le vostre parti. Se no, sono obbligato a dire al professore che non avete fatto nulla.
