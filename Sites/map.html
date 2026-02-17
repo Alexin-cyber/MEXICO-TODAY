@@ -1,10 +1,43 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Messico - Mappa</title>
+        <meta charset="utf-8" />
+        <title>Mappa interattiva</title>
+        <!-- CSS Leaflet -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+        <style>
+            body {
+                display: flex;
+            }
+
+            #map {
+                height: 500px;
+                width: 50%;
+                border: 5px solid black;
+                border-radius: 20px;
+                transition: 0.5s ease;
+            }
+
+            #map:hover {
+                transform: scale(1.02);
+            }
+
+            #textBox {
+                text-align: center;
+                height: 500px;
+                width: 50%;
+            }
+        </style>
     </head>
     <body>
-        
+        <div id="map"></div>
+        <div id="textBox">
+            <h2>Mappa che inlustra tutte le posioni di alcuni cartelli messicani</h2>
+        </div>
+
+        <!-- JS Leaflet -->
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
