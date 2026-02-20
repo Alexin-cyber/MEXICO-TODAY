@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <title>Mappa interattiva</title>
+        <title>Messico - Mappa interattiva</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../icons/mexicoIcon.png" type="image/png">
+
         <!-- CSS Leaflet -->
         <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 
         <style>
             body {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            #section {
                 display: flex;
             }
 
@@ -19,22 +28,43 @@
                 transition: 0.5s ease;
             }
 
-            #map:hover {
-                transform: scale(1.02);
-            }
-
             #textBox {
                 text-align: center;
                 height: 500px;
                 width: 50%;
             }
+
+            p {
+                cursor: pointer;
+                font-size: 1.2rem;
+            }
+
+            p:hover {
+                text-decoration: underline;
+            }
         </style>
     </head>
     <body>
-        <div id="map"></div>
-        <div id="textBox">
-            <h2>Mappa che inlustra tutte le posioni di alcuni cartelli messicani</h2>
+        <div id="section">
+            <div id="map"></div>
+            <div id="textBox">
+                <h2>Mappa che inlustra tutte le posizioni di alcuni cartelli messicani</h2>
+
+                <p id="cr1">Sinaloa Cartel</p>
+                <p id="cr2">Jalisco Nuova Generazione</p>
+                <p id="cr3">Cartello del Golfo</p>
+                <p id="cr4">Cartello del Nord-Est</p>
+                <p id="cr5">Cartello di Juárez</p>
+                <p id="cr6">La Familia Michoacana</p>
+
+                <button id="cancel">
+                    Clicca per cancellare le aree
+                </button>
+            </div>
         </div>
+        
+        <span style="display: block; margin-top: 2rem;">Queste sono tutte le aree controllate da alcuni cartelli. Ovviamente le aree non sono perfettamente giuste, ma indicativamente sono quelle.</span>
+	<a href="cartelli.html">Torna indietro!</a>
 
         <!-- JS Leaflet -->
         <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
